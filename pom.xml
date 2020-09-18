@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.yzm.learnredis</groupId>
-    <artifactId>learn-redis</artifactId>
+    <artifactId>redis-study</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
