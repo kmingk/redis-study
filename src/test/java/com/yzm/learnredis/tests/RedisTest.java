@@ -16,9 +16,8 @@ public class RedisTest {
     private JedisPoolConfig config;
 
     @BeforeTest
-    public void brfore(){
+    public void before(){
 
-        HashMap
         config = new JedisPoolConfig();
         config.setMaxIdle(10);
         config.setMaxWaitMillis(3000);

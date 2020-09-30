@@ -33,6 +33,17 @@
             <version>3.5.4</version>
         </dependency>
 
+
+        <!-- jackson-databind 依赖 jackson-core 和 jackson-annotations，当添加 jackson-databind 之后，
+            jackson-core 和 jackson-annotations 也随之添加到 Java 项目工程中。在添加相关依赖包之后，
+            就可以使用 Jackson。
+        -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.9.1</version>
+        </dependency>
+
     </dependencies>
 
     <repositories>
